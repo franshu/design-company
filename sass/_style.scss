@@ -64,7 +64,7 @@ header{
     font-size: 16px;
     border-radius: 3px;
     color: #fff;
-    font-size: 16px;
+    font-size: 16px; //con las propiedades del botton queria hacer un mixin pero no lo supe implementar
     font-weight: 100;
     padding-right: 7%;
     padding-left: 7%;
@@ -95,4 +95,84 @@ header{
     border-color: #ff075a;
     color: #fff;
 }
+
+//section 01
+#sec01{
+	background-color: #e8f1f1;
+	overflow: hidden;
+    position: relative;
+    padding-bottom: 10vh;
+}
+
+.title-3{
+	color:#222;
+	text-align: center;
+	font-size: 42px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1;
+    text-transform: uppercase;
+    margin-top: 45px;
+    margin-bottom: 15px;
+}
+.line-title{
+	margin: auto;
+    z-index: 1;
+    width: 165px;
+    height: 1px;
+    background: #73baae;
+}
+.img-container{
+	margin-top: 80px;
+	border-radius: 50%;
+    border-style: solid;
+    height: 165px;
+    width: 165px;
+    overflow: hidden;
+    border-color: #73baae;
+    border-width: 10px;
+}
+.serv-img{
+   	margin-top: 30px;
+    vertical-align: center;
+    max-width: 100%;
+    height: auto;
+}
+
+.sub-title-1{
+	font-size: 19px;
+    font-weight: 300;
+    margin: 0.950em 0 0.5em;
+    text-align: center;
+}
+#sec01 p{
+	color: #747474;
+    font-size: 15px;
+    font-weight: 100;
+    text-align:justify;  
+    line-height: 1.6;
+    text-rendering: optimizeLegibility;
+}
+
+.btn-3{
+	background: #73baae;
+    font-size: 16px;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    
+    padding-right: 7%;
+    padding-left: 7%;
+    padding-bottom: 4%;
+    padding-top: 4%;
+    margin: 13px;
+}
+
+.btn-3:hover{
+	color: #fff;
+    background: #fd3635;
+    border-color: transparent;
+}
+
 
