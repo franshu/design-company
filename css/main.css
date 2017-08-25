@@ -159,10 +159,15 @@ header {
   border-color: transparent; }
 
 #sec02 {
-  margin-top: 15vh;
+  background-color: #F9F9F9;
   overflow: hidden;
   position: relative;
-  padding-bottom: 10vh; }
+  padding-bottom: 10vh;
+  height: max-content; }
+
+.bg-color02 {
+  background-color: #F9F9F9;
+  margin-top: 70px; }
 
 .sub-title-2 {
   color: #0a0a0a;
@@ -196,5 +201,32 @@ header {
   border-color: transparent;
   margin-top: 5%;
   margin-bottom: 5%; }
+
+.title-detail {
+  text-transform: capitalize; }
+
+.sub-p {
+  text-align: center;
+  margin-top: 15px;
+  color: #747474;
+  font-size: 15px;
+  font-weight: 100; }
+
+.card-size {
+  max-width: 372px;
+  border: 1px solid;
+  border-color: #dee4ea;
+  border-radius: 3px;
+  font-size: 13px; }
+
+.card h4, p, a, i {
+  margin-left: 10px;
+  color: #c0c2c4; }
+
+.card-text-line p {
+  color: transparent;
+  text-decoration-line: underline;
+  text-decoration-style: dashed;
+  text-decoration-color: #dee4ea; }
 
 /*# sourceMappingURL=main.css.map */
