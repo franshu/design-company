@@ -158,4 +158,43 @@ header {
   background: #fd3635;
   border-color: transparent; }
 
+#sec02 {
+  margin-top: 15vh;
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 10vh; }
+
+.sub-title-2 {
+  color: #0a0a0a;
+  font-size: 28px;
+  font-weight: 400;
+  text-align: left; }
+
+.line-title-2 {
+  margin: 20px 0px 50px 0px;
+  z-index: 1;
+  width: 55px;
+  height: 3px;
+  background: #0a0a0a; }
+
+#sec02 p {
+  color: #747474;
+  font-size: 15px;
+  font-weight: 100;
+  text-align: left;
+  line-height: 1.6;
+  text-rendering: optimizeLegibility; }
+
+.btn-sec02 {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-transform: uppercase; }
+
+.btn-sec02:hover {
+  color: #fff;
+  background: #fd3635;
+  border-color: transparent;
+  margin-top: 5%;
+  margin-bottom: 5%; }
+
 /*# sourceMappingURL=main.css.map */
